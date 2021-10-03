@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('run') {
             steps {
-                echo 'Congrast!!!!'
+                echo 'Congrastww!!!!'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }
